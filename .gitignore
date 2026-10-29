@@ -1,0 +1,13 @@
+node_modules/
+dist/
+shots/
+*.log
+.DS_Store
+.vscode/
+.idea/
+# локальные ключи и секреты — никогда
+.env
+.env.*
+*.pem
+*.key
+*.token

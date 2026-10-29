@@ -1,0 +1,165 @@
+/* ── РАПТОР · ночная тема — токены ─────────────────────────────────
+   Цвета сняты пикселями с логотипа: тень стеклянного круга #214333,
+   верх круга #6FA37A, голова раптора #9CCAA5, шея #60876C.
+   Фон — почти чёрный с зелёным подтоном, один мягкий ореол сверху.   */
+
+:root {
+  color-scheme: dark only;
+
+  --void-0: #060a08;
+  --void-1: #0b120f;
+  --void-2: #101915;
+
+  --moss-800: #214333;
+  --moss-600: #2a5c42;
+
+  --sage-500: #60876c;
+  --sage-400: #6fa37a;
+  --sage-300: #86bc90;
+
+  --mint-200: #9ccaa5;
+  --mint-100: #c4e3cb;
+
+  /* вердикты и смыслы */
+  --take: #9ccaa5;
+  --caution: #c99a5b;
+  --miss: #c97b6b;
+  --neutral: #7b8b83;
+
+  /* текст: контраст к --void-1 от 5.8:1 до 16.7:1 */
+  --text-1: #e9f3ec;
+  --text-2: #b3c6ba;
+  --text-3: #7e938a;
+  --text-inverse: #07110b;
+
+  /* одна стеклянная рецептура на всё приложение */
+  --panel: rgba(23, 41, 32, 0.55);
+  --panel-strong: rgba(28, 49, 38, 0.72);
+  --panel-flat: rgba(17, 30, 24, 0.6);
+  --hairline: rgba(156, 202, 165, 0.13);
+  --hairline-hi: rgba(196, 227, 203, 0.34);
+  --edge: inset 0 1px 0 rgba(196, 227, 203, 0.14);
+  --shadow: 0 16px 34px -26px rgba(0, 0, 0, 0.85);
+  --blur: 20px;
+
+  --r-s: 10px;
+  --r-m: 14px;
+  --r-l: 20px;
+  --r-pill: 999px;
+
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 22px;
+  --sp-6: 30px;
+
+  --spring: linear(0, 0.009 1.6%, 0.035 3.2%, 0.141 7.4%, 0.56 18.6%, 0.798 25.6%, 0.906 29.6%, 0.98 33.8%, 1.032 38.2%, 1.057 42.4%, 1.062 46.5%, 1.054 51.6%, 1.022 63.4%, 1.006 74.6%, 0.997 86.8%, 1);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-fast: 140ms;
+  --t-base: 240ms;
+  --t-slow: 420ms;
+
+  --font-display: "Unbounded", "Onest", system-ui, sans-serif;
+  --font-body: "Onest", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", monospace;
+  --fs-h1: 26px;
+  --fs-h2: 19px;
+  --fs-body: 15px;
+  --fs-s: 13px;
+  --fs-xs: 11.5px;
+}
+
+/* контур владельца: чуть холоднее и резче */
+[data-scope="admin"] {
+  --panel: rgba(20, 38, 29, 0.66);
+  --hairline: rgba(156, 202, 165, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  overflow-x: clip;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--void-0);
+  color: var(--text-1);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+body {
+  min-height: 100dvh;
+  background:
+    radial-gradient(120% 62% at 50% -14%, rgba(111, 163, 122, 0.16), transparent 62%),
+    var(--void-0);
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  line-height: 1.18;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+
+.label {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.muted {
+  color: var(--text-3);
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--mint-200);
+  outline-offset: 2px;
+  border-radius: var(--r-s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

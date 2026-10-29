@@ -1,0 +1,159 @@
+{
+  "session": {
+    "user": { "tgId": 1000001, "name": "@demo", "username": "demo", "language": "ru" },
+    "subscription": { "plan": "1w", "active": true, "until": "2026-11-05T00:00:00+00:00", "dailyLimit": 40 },
+    "quota": { "freeLeft": 3, "bonus": 1, "usedToday": 4, "unlimited": false },
+    "band": { "min": 1.4, "max": 3.0 },
+    "mode": "demo",
+    "admin": { "allowed": true, "unlocked": true },
+    "source": { "configured": true, "baseUrl": "https://demo.example", "lastError": null, "externalAllowed": true },
+    "startParam": ""
+  },
+  "board": {
+    "updated": "__NOW__",
+    "ageSeconds": 4.2,
+    "live": 24,
+    "covered": 9,
+    "total": 3,
+    "page": 0,
+    "pages": 1,
+    "pageSize": 5,
+    "filters": {
+      "minute_from": 0, "minute_to": 95, "only_stats": false, "min_hotness": 0,
+      "sort": "stats", "page": 0, "countries": [], "leagues": [], "hidden": []
+    },
+    "rows": [
+      {
+        "gameId": 900101, "home": "Виндзор", "away": "Аврора", "league": "Лига чемпионов",
+        "country": "Универсиада", "countryCode": "UC", "score": "1:1", "minute": 63,
+        "period": "Second Half", "kickoff": "29.10 19:00", "hotness": 0.71, "stats": true,
+        "metrics": ["sot", "shots", "corners", "xg", "possession"],
+        "sot": "6–4", "shots": "14–9", "corners": "7–3", "xg": "1.70–1.05", "pi": "0.68–0.31",
+        "gsi": 0.62, "near": [], "watched": true, "dataState": "🟢",
+        "dataNote": "данные актуальны: основные показатели доступны",
+        "signal": {
+          "scenario": "goal_imminent", "title": "Вот-вот будет гол", "market": "OVER:2.5",
+          "odds": 1.72, "probability": 0.64, "evPct": 10.1, "priority": "critical",
+          "reasons": ["давление хозяев 0,68 против 0,31", "4 удара в створ за последние 10 минут", "темп матча 0,05 гола в минуту"],
+          "confirmedBy": ["Рывок после перерыва", "Счёт по игре равный"],
+          "untilMinute": 74, "validMinutes": 11, "noBet": false, "noBetReason": ""
+        }
+      },
+      {
+        "gameId": 900102, "home": "Нортгейт", "away": "Сильверлейк", "league": "Кубок континента",
+        "country": "Универсиада", "countryCode": "UC", "score": "0:0", "minute": 38,
+        "period": "First Half", "kickoff": "29.10 19:30", "hotness": 0.44, "stats": true,
+        "metrics": ["sot", "shots", "corners", "xg", "possession"],
+        "sot": "2–1", "shots": "6–5", "corners": "3–2", "xg": "0.42–0.31", "pi": "0.51–0.28",
+        "gsi": 0.28, "near": ["Прессинг не отпускает"], "watched": false, "dataState": "🟡",
+        "dataNote": "данные неполные: часть метрик отсутствует",
+        "signal": {
+          "scenario": "steam_move", "title": "Линия ушла при спокойной игре", "market": "OVER:1.5",
+          "odds": 3.4, "probability": 0.55, "evPct": 87.6, "priority": "high",
+          "reasons": ["котировка тотала сдвинулась на 12% за три минуты"],
+          "confirmedBy": [], "untilMinute": 45, "validMinutes": 7, "noBet": true,
+          "noBetReason": "цены нет в коридоре 1,40–3,00 — сигнал остаётся наблюдением"
+        }
+      },
+      {
+        "gameId": 900103, "home": "Риверстоун", "away": "Мидлтон", "league": "Первая лига",
+        "country": "Универсиада", "countryCode": "UC", "score": "2:0", "minute": 81,
+        "period": "Second Half", "kickoff": "29.10 17:00", "hotness": 0.22, "stats": false,
+        "metrics": [], "sot": "", "shots": "", "corners": "", "xg": "", "pi": "",
+        "gsi": 0.11, "near": [], "watched": false, "dataState": "🔴",
+        "dataNote": "данные устарели: расчёт временно ненадёжен",
+        "signal": null
+      }
+    ]
+  },
+  "game": {
+    "gameId": 900101, "source": "card", "stale": false, "ageSeconds": 6.4,
+    "passport": {
+      "home": "Виндзор", "away": "Аврора", "league": "Лига чемпионов", "country": "Универсиада",
+      "score": "1:1", "minute": 63, "period": "Second Half", "kickoff": "29.10 19:00",
+      "round": "Групповой этап · 5-й тур", "venue": "Стадион Виндзор", "updated": "19:42"
+    },
+    "quality": { "state": "🟢", "note": "данные актуальны: основные показатели доступны" },
+    "signal": {
+      "scenario": "goal_imminent", "title": "Вот-вот будет гол", "market": "OVER:2.5",
+      "odds": 1.72, "probability": 0.64, "evPct": 10.1, "priority": "critical",
+      "reasons": ["давление хозяев 0,68 против 0,31", "4 удара в створ за последние 10 минут", "темп матча 0,05 гола в минуту"],
+      "confirmedBy": ["Рывок после перерыва", "Счёт по игре равный"],
+      "untilMinute": 74, "validMinutes": 11, "noBet": false, "noBetReason": ""
+    },
+    "numbers": { "sot": "6–4", "shots": "14–9", "corners": "7–3", "xg": "1.70–1.05", "possession": "58–42", "pi": "0.68–0.31" },
+    "gsi": 0.62, "hotness": 0.71,
+    "goalBasis": {
+      "per_minute": 0.051, "whole_match": 0.047, "current_half": 0.058, "league": 0.034,
+      "score_factor": 1.06, "played_minutes": 63, "match_xg": 2.75,
+      "recent_windows": [{ "minutes": 5, "goals": 1 }, { "minutes": 10, "goals": 1 }, { "minutes": 15, "goals": 2 }]
+    },
+    "scenarios": [
+      { "id": "goal_imminent", "title": "Вот-вот будет гол", "status": "🟢 Подтверждён", "progress": 1, "fired": true, "matched": ["давление 0,68", "4 в створ за 10'"], "barriers": [] },
+      { "id": "momentum_hold", "title": "Прессинг не отпускает", "status": "🟡 Почти", "progress": 0.74, "fired": false, "matched": ["пик давления за 10 минут"], "barriers": ["в створ у лидера за 10 минут: 0,68 вместо 1,3"] },
+      { "id": "red_card_shift", "title": "Удаление меняет игру", "status": "▫️ Не сработало", "progress": 0.3, "fired": false, "matched": [], "barriers": ["удалений в матче нет"] }
+    ],
+    "events": [
+      { "kind": "гол", "minute": 58, "side": "гости", "red": false, "player": "М. Рейес" },
+      { "kind": "гол", "minute": 41, "side": "хозяева", "red": false, "player": "Д. Ким" },
+      { "kind": "карточка", "minute": 52, "side": "гости", "red": false, "player": "А. Ндлову" }
+    ],
+    "watched": true,
+    "text": "⚽ ПАСПОРТ МАТЧА\nВиндзор — Аврора\nЛига чемпионов · 63' · 1:1\n\n🎯 СИГНАЛ\nТБ 2,5 @ 1,72 · модель 64%\nАктуален до 74-й минуты\n\n📈 ЦИФРЫ\nв створ 6–4 · xG 1,70–1,05\nдавление 0,68–0,31\n\nРасчёт по всему матчу: 0,051 гола в минуту."
+  },
+  "signals": {
+    "items": [
+      { "id": 5001, "gameId": 900101, "scenario": "goal_imminent", "title": "Вот-вот будет гол", "priority": "critical", "market": "OVER:2.5", "minute": 58, "score": "1:1", "league": "Лига чемпионов", "home": "Виндзор", "away": "Аврора", "probability": 0.64, "odds": 1.72, "evPct": 10.1, "verdict": "брать", "delivered": true, "pushed": true, "hit": null, "fact": "", "reason": "давление и темп выросли одновременно", "ageSeconds": 240 },
+      { "id": 5002, "gameId": 900102, "scenario": "steam_move", "title": "Линия ушла при спокойной игре", "priority": "high", "market": "OVER:1.5", "minute": 34, "score": "0:0", "league": "Кубок континента", "home": "Нортгейт", "away": "Сильверлейк", "probability": 0.55, "odds": 3.4, "evPct": 87.6, "verdict": "осторожно", "delivered": true, "pushed": false, "hit": null, "fact": "", "reason": "котировка сдвинулась без событий на поле", "ageSeconds": 900 },
+      { "id": 5003, "gameId": 900103, "scenario": "second_half_void", "title": "Второй тайм без моментов", "priority": "medium", "market": "UNDER:3.5", "minute": 71, "score": "2:0", "league": "Первая лига", "home": "Риверстоун", "away": "Мидлтон", "probability": 0.71, "odds": 1.55, "evPct": 10.1, "verdict": "брать", "delivered": true, "pushed": true, "hit": true, "fact": "после сигнала забито 0 из нужных 1 голов", "reason": "темп второго тайма упал вдвое", "ageSeconds": 3600 },
+      { "id": 5004, "gameId": 900104, "scenario": "red_card_shift", "title": "Удаление меняет игру", "priority": "high", "market": "OVER:3.5", "minute": 66, "score": "1:2", "league": "Вторая лига", "home": "Оуквуд", "away": "Бриджпорт", "probability": 0.48, "odds": 2.1, "evPct": 0.8, "verdict": "осторожно", "delivered": true, "pushed": false, "hit": false, "fact": "после сигнала забито 0 из нужных 2 голов", "reason": "меньшинство у гостей при счёте 1:2", "ageSeconds": 5400 }
+    ],
+    "summary": { "total": 4, "processed": 4, "pushed": 2, "resolved": 2, "hitRate": 50 }
+  },
+  "filters": { "minute_from": 0, "minute_to": 95, "only_stats": false, "min_hotness": 0, "sort": "stats", "page": 0, "countries": [], "leagues": [], "hidden": [] },
+  "subscription": { "enabled": true, "min_priority": "high", "by_filters": true, "min_gap_sec": 120, "scenarios_off": [], "events": { "scenario": true, "goal": true, "red": true, "finish": false } },
+  "scenarios": {
+    "items": [
+      { "id": "goal_imminent", "title": "Вот-вот будет гол", "priority": "critical", "validMinutes": 12, "note": "рост давления и темпа одновременно" },
+      { "id": "momentum_hold", "title": "Прессинг не отпускает", "priority": "high", "validMinutes": 10, "note": "давление держится больше десяти минут" },
+      { "id": "red_card_shift", "title": "Удаление меняет игру", "priority": "critical", "validMinutes": 15, "note": "меньшинство у проигрывающих" },
+      { "id": "second_half_void", "title": "Второй тайм без моментов", "priority": "medium", "validMinutes": 15, "note": "темп упал после перерыва" },
+      { "id": "steam_move", "title": "Линия ушла при спокойной игре", "priority": "high", "validMinutes": 8, "note": "движение котировки без событий" }
+    ]
+  },
+  "admin": {
+    "state": { "enabled": true, "intervalSec": 20, "maxGames": 120, "alertsPerHour": 8, "boardAge": 5.1, "boardLive": 24, "boardCovered": 9, "signals24h": 41, "resolved24h": 18, "delivered24h": 39 },
+    "calibration": { "brier": 0.171, "logLoss": 0.412, "n": 480, "coverage": 0.82, "buckets": [
+      { "from": 0.5, "to": 0.6, "n": 96, "predicted": 0.55, "observed": 0.51, "gap": -0.04 },
+      { "from": 0.6, "to": 0.7, "n": 148, "predicted": 0.65, "observed": 0.59, "gap": -0.06 },
+      { "from": 0.7, "to": 0.8, "n": 112, "predicted": 0.74, "observed": 0.7, "gap": -0.04 }
+    ] }
+  },
+  "plans": { "items": [
+    { "code": "1d", "title": "1 день", "days": 1, "stars": 50, "usdt": 1, "rub": 120, "hint": "попробовать сканер один день", "badge": "" },
+    { "code": "1w", "title": "1 неделя", "days": 7, "stars": 250, "usdt": 4, "rub": 420, "hint": "до 40 расчётов в сутки", "badge": "" },
+    { "code": "1m", "title": "1 месяц", "days": 30, "stars": 900, "usdt": 14, "rub": 1400, "hint": "без лимита на подписку", "badge": "выгодно" },
+    { "code": "12m", "title": "12 месяцев", "days": 365, "stars": 5000, "usdt": 79, "rub": 8400, "hint": "максимальный срок", "badge": "" }
+  ] },
+  "public_results": {
+    "generated_at": "__NOW__",
+    "items": [
+      { "game_id": 900101, "match": "Виндзор — Аврора", "league": "Лига чемпионов", "market": "ТБ 2,5 (Виндзор или ничья)", "verdict": "брать", "probability_percent": "64%", "odds": 1.72, "edge_percent": "+10,1%", "kickoff": "29.10.2026 21:00", "published_at": "__NOW__", "resolved_at": null, "outcome": null, "result_published": false },
+      { "game_id": 900103, "match": "Риверстоун — Мидлтон", "league": "Первая лига", "market": "ТМ 3,5", "verdict": "брать", "probability_percent": "71%", "odds": 1.55, "edge_percent": "+10,1%", "kickoff": "29.10.2026 17:00", "published_at": "__NOW__", "resolved_at": "__NOW__", "outcome": "hit", "result_published": true },
+      { "game_id": 900104, "match": "Оуквуд — Бриджпорт", "league": "Вторая лига", "market": "ТБ 3,5", "verdict": "осторожно", "probability_percent": "48%", "odds": 2.1, "edge_percent": "+0,8%", "kickoff": "29.10.2026 18:30", "published_at": "__NOW__", "resolved_at": "__NOW__", "outcome": "miss", "result_published": true }
+    ],
+    "stats": { "published": 3, "resolved": 2, "hits": 1, "hit_rate_percent": 50, "roi_percent": -12.5, "flat_units": -0.25 }
+  },
+  "feed": { "items": [] },
+  "collections": { "day": "today", "total": 0, "withPick": 0, "collections": [] },
+  "journal": { "rows": [], "stats": { "total": 0, "settled": 0, "won": 0, "hitRate": 0, "profit": 0, "roi": 0, "avgOdds": 0, "staked": 0, "pending": 0 } },
+  "history": { "rows": [], "summary": { "total": 0, "settled": 0, "won": 0, "hitRate": 0, "profit": 0, "roi": 0 } },
+  "admin_dashboard": { "users": { "total": 128, "new_24h": 6, "active_subscriptions": 34, "blocked": 1 }, "model": { "settled": 480, "hitRate": 58.1, "roi": 4.2, "brier": 0.171 }, "health": { "workerStatus": "demo" }, "source": { "ok": true } },
+  "admin_users": { "items": [
+    { "id": 1, "tgId": 1000001, "name": "Demo User", "username": "demo", "plan": "1w", "until": "2026-11-05", "free": 3, "bonus": 1, "bank": 0, "blocked": false, "admin": true }
+  ] },
+  "admin_settings": { "items": [
+    { "key": "live_scan_interval_sec", "title": "Интервал сканера, с", "category": "scanner", "kind": "int", "value": "20", "raw": 20, "min": 10, "max": 300, "choices": [], "hot": true, "description": "как часто снимать состояние матчей" },
+    { "key": "channel_publish_min_probability", "title": "Минимальная вероятность", "category": "channel_content", "kind": "float", "value": "0.68", "raw": 0.68, "min": 0.01, "max": 0.99, "choices": [], "hot": true, "description": "нижний порог для автопостов" }
+  ] }
+}
